@@ -110,14 +110,6 @@ ORDER_BULK_CREATE = """
                                 amount
                             }
                         }
-                        undiscountedTotalPrice{
-                            gross {
-                                amount
-                            }
-                            net {
-                                amount
-                            }
-                        }
                         metadata {
                             key
                             value

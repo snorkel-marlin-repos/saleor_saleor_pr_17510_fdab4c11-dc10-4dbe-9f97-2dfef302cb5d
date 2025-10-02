@@ -92,7 +92,7 @@ class OrderConfirm(DeprecatedModelMutation):
                 transaction.on_commit(
                     lambda: order_charged(
                         order_info,
-                        user,
+                        info.context.user,
                         app,
                         authorized_payment.total,
                         authorized_payment,
