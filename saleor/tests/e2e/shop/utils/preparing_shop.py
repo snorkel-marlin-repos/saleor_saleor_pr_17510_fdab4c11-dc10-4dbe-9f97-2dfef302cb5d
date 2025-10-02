@@ -75,7 +75,6 @@ def prepare_shop(
                 "id": channel_id,
                 "warehouse_id": warehouse_id,
                 "slug": created_channel["slug"],
-                "currency": created_channel["currencyCode"],
                 "shipping_zones": [],
                 "order_settings": created_channel["orderSettings"],
                 "checkout_settings": created_channel["checkoutSettings"],
